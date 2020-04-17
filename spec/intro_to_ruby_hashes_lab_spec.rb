@@ -21,7 +21,7 @@ describe "working with hashes" do
   end
 
 end
-
+#
 describe "building a multidimensional monopoly hash" do
   describe "adding a key-value pair to the top level of the monopoly hash" do
     describe "#monopoly" do
@@ -55,7 +55,7 @@ describe "building a multidimensional monopoly hash" do
       end
     end
   end
-
+#
   describe "adding key-value pairs to the third level of the monopoly hash that we continued building in the #monopoly_with_second_tier method" do
     describe "#monopoly_with_third_tier" do
       it "sets the 1st key of the :rent_in_dollars hash to a symbol, :one_piece_owned, whose value is the integer 25" do
@@ -118,7 +118,7 @@ describe "building a multidimensional monopoly hash" do
       end
     end
   end
-
+#
   describe "fourth level of monopoly hash" do
     describe "#monopoly_with_fourth_tier" do
       it "sets the 1st key of the :reading_railroad hash to a string, 'mortgage_value', whose value is '$100'" do
